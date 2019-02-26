@@ -13,6 +13,8 @@ import random
 class ZergBot(sc2.BotAI):
     """A bot that is able to play the Zerg faction."""
 
+    race = "Zerg"
+
     rush_start_count = 24
     rush_break_count = 8
 

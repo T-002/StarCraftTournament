@@ -10,6 +10,8 @@ from sc2.constants import SCV
 class TerranBot(sc2.BotAI):
     """A bot that is able to play the Terran faction."""
 
+    race = "Terran"
+
     async def on_step(self, iteration):
         """This method gets executed during each step of the game.
 

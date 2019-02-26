@@ -9,6 +9,8 @@ from sc2.constants import NEXUS, PROBE
 class ProtossBot(sc2.BotAI):
     """This class represents the base class for the tournament bots."""
 
+    race = "Protoss"
+
     async def on_step(self, iteration):
         """This method gets executed during each step of the game.
 
